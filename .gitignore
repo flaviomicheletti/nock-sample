@@ -1,2 +1,2 @@
-*.screenflow
-*.mp4
+node_modules
+package-lock.json
