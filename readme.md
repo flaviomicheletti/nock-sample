@@ -8,7 +8,13 @@ Execute com `npm test`.
 
 Este exemplo consome a API pública http://jservice.io/api/.
 
-O arquivo `basic.js` é para ver o resultado da api.
+O arquivo `basic.js` serve para uma checagem visual (ver no terminal)
+o resultado da api.
+
+### Release
+
+- [v1](https://github.com/flaviomicheletti/nock-sample/tree/v1) Versão com Mocha e Request
+- [v2](https://github.com/flaviomicheletti/nock-sample/tree/v2) Versão com Jest e Axios (você está aqui)
 
 
 ### Tutorial
