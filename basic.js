@@ -1,9 +1,9 @@
-var jservice = require("./jservice");
+var myapi = require("./api");
 
-jservice.getCategory(1044, function(category) {
+myapi.getCategory(1044, function(category) {
   console.log(category);
 });
 
-jservice.getRandomQuestion(function(question) {
+myapi.getRandomQuestion(function(question) {
   console.log(question);
 });
