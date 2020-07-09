@@ -6,6 +6,7 @@ Execute com `npm test`.
 
 Este exemplo consome a API pública http://jservice.io/api/.
 
+O arquivo `basic.js` é para ver o resultado da api.
 
 ### Tutorial
 
