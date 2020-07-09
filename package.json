@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.73.0"
+    "request": "^2.88.2"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "nock": "^8.0.0"
+    "mocha": "^8.0.1",
+    "nock": "^13.0.2"
   }
 }
