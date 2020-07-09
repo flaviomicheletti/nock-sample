@@ -12,3 +12,7 @@ O arquivo `basic.js` é para ver o resultado da api.
 
 - [https://youtu.be/3G_yyE5GeIk](https://youtu.be/3G_yyE5GeIk). 
 
+
+### Veja também
+
+- https://github.com/nock/nock/issues/699
