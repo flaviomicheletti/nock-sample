@@ -4,16 +4,16 @@
   "description": "",
   "main": "random.js",
   "scripts": {
-    "test": "mocha *.spec.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.2"
+    "axios": "^0.19.2"
   },
   "devDependencies": {
-    "mocha": "^8.0.1",
+    "jest": "^26.1.0",
     "nock": "^13.0.2"
   }
 }
