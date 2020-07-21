@@ -11,6 +11,29 @@ Este exemplo consome a API pública http://jservice.io/api/.
 O arquivo `basic.js` serve para uma checagem visual (ver no terminal)
 o resultado da api.
 
+### Coverage
+
+    > jest --coverage
+
+    PASS  ./api.test.js
+    JService
+        ✓ GET /category (21 ms)
+        ✓ GET /category fail (6 ms)
+        ✓ GET /random (9 ms)
+        ✓ GET /random fail (3 ms)
+
+    ----------|---------|----------|---------|---------|-------------------
+    File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+    ----------|---------|----------|---------|---------|-------------------
+    All files |     100 |      100 |     100 |     100 |                   
+    api.js   |     100 |      100 |     100 |     100 |                   
+    ----------|---------|----------|---------|---------|-------------------
+    Test Suites: 1 passed, 1 total
+    Tests:       4 passed, 4 total
+    Snapshots:   0 total
+    Time:        1.546 s
+    Ran all test suites.
+
 ### Release
 
 - [v1](https://github.com/flaviomicheletti/nock-sample/tree/v1) Versão com Mocha e Request

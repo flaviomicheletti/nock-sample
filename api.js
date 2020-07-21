@@ -22,7 +22,7 @@ module.exports = {
         cb(category.title);
       })
       .catch(function (error) {
-        console.log(error);
+        cb(error.message);
       })
 
   },
@@ -35,7 +35,7 @@ module.exports = {
         cb(question.question);
       })
       .catch(function (error) {
-        console.log(error);
+        cb(error.message);
       })
 
   }
